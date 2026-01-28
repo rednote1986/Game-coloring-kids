@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff3fa;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 480px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff4da6;
+  font-size: 24px;
+}
+
+img {
+  width: 220px;
+  margin: 20px 0;
+}
+
+.colors button {
+  font-size: 18px;
+  padding: 14px 22px;
+  margin: 8px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: #ffd6f0;
+}
+
+.colors button:hover {
+  background: #ffb3e6;
+}
+
+#message {
+  font-size: 18px;
+  margin: 10px;
+}
+
+#nextBtn {
+  display: none;
+  font-size: 18px;
+  padding: 12px 26px;
+  border-radius: 25px;
+  background: #6cff8d;
+  border: none;
+  cursor: pointer;
+}
